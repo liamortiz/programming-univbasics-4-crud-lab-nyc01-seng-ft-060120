@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  return [1..4]
+  return (1..4).to_a
 end
 
 def add_element_to_end_of_array(array, element)
